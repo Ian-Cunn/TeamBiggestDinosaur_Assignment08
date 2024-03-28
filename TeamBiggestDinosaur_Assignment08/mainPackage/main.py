@@ -20,7 +20,7 @@ if __name__ == "__main__":
     
     # SQL query
     query = '''
-        SELECT dbo.tProduct.ProductID,
+        SELECT TOP 1 dbo.tProduct.ProductID,
                dbo.tName.Name,
                dbo.tProduct.Description,
                dbo.tStore.Store,
@@ -49,4 +49,4 @@ if __name__ == "__main__":
         product = row[1]
         price = row[5]
         print(f"Cheapest product in {state}, (Texas) is {product} which costs {price} dollars.")
-        print("new")
+        
