@@ -49,4 +49,4 @@ if __name__ == "__main__":
         product = row[1]
         price = row[5]
         print(f"Cheapest product in {state}, (Texas) is {product} which costs {price} dollars.")
-        print("new")
+        
