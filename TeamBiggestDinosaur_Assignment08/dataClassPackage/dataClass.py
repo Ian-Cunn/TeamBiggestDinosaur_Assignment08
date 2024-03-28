@@ -19,7 +19,7 @@ class Data:
         '''
         conn = pyodbc.connect('Driver={SQL Server};'
                               'Server=lcb-sql.uccob.uc.edu\\nicholdw;'
-                              'Database=' + 'GroceryStoreSimulator' + ';'
+                              'Database=' + myDatabase + ';'
                               'uid=IS4010Login;'
                               'pwd=P@ssword2;')
     
