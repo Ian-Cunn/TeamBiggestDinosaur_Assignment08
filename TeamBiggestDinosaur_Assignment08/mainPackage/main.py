@@ -20,7 +20,7 @@ if __name__ == "__main__":
     
     # SQL query
     query = '''
-        SELECT dbo.tProduct.ProductID,
+        SELECT TOP 1 dbo.tProduct.ProductID,
                dbo.tName.Name,
                dbo.tProduct.Description,
                dbo.tStore.Store,
